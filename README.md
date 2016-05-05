@@ -1,2 +1,2 @@
-# home-work
+# algnitko.github.io
 Домашнее задание
