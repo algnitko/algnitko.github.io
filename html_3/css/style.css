@@ -26,17 +26,20 @@ menu ul li{
 	list-style: none;
 	font-size: 16px;
 	font-family: "Open Sans";
-	padding: 10px 100px 10px 10px;
+	padding: 10px 0px 10px 0px;
 }
 menu ul li a{
     color: white;
     text-decoration: none;
     text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    padding: 0px 70px 0px 20px;
+    border-right: 1px solid #535353;
+	border-left: 1px solid #535353;
 }
-menu ul li:hover{
+menu ul li a:hover{
 	list-style: none;
-	padding: 10px 10px 10px 10px;
-	margin: 0px 88px 0px 0px;
+	padding: 10px 20px 10px 20px;
+	margin-right: 50px;
 	border-right: 1px solid #838383;
 	border-left: 1px solid #838383;
 	background-color: #484848;
@@ -52,7 +55,12 @@ article ul li{
 	font-size: 16px;
 	font-family: "Open Sans";
 	padding: 10px;
-	border: 1px solid #838383;
+	border-right: 1px solid #838383;
+	border-left: 1px solid #838383;
+	border-top: 1px solid #838383;
+}
+.auto{
+	border-bottom: 1px solid #838383;
 }
 article ul li a{
     color: #838383;
@@ -78,9 +86,7 @@ p{
 }
 footer{
 	clear: both;
-}
-footer{
-	height: 50px;
+	height: 40px;
 	background-color: #e1e1e1;
 	margin-bottom: 40px;
 }
@@ -89,7 +95,7 @@ footer ul li{
 	list-style: none;
 	font-size: 16px;
 	font-family: "Open Sans";
-	padding: 10px 100px 10px 10px;
+	padding: 10px 70px 10px 20px;
 }
 footer ul li a{
     color: #838383;
@@ -100,7 +106,7 @@ footer ul li a:hover{
 	text-decoration: underline;
 }
 .c{
-	padding: 10px 0px 10px 105px;
+	padding: 10px 0px 10px 190px;
 	color: #838383;
 	text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
