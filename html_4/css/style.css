@@ -121,7 +121,28 @@ ul.main_menu > li > a{
 	display: block;
 	color: white;
     text-decoration: none;
-    padding: 3px 34px 7px 40px;
+    padding: 4px 35px 0px 40px;
+}
+.block{
+	position: absolute;
+	top: 439px;
+	right: 738px;
+	border: 3px solid transparent;
+	border-top: 7px solid white;
+}
+.block1{
+	position: absolute;
+	top: 439px;
+	right: 620px;
+	border: 3px solid transparent;
+	border-top: 7px solid white;
+}
+.block2{
+	position: absolute;
+	top: 439px;
+	right: 473px;
+	border: 3px solid transparent;
+	border-top: 7px solid white;
 }
 ul.sub_menu{
 	display: none;
@@ -147,7 +168,6 @@ ul.main_menu > li:hover > ul.sub_menu{
     display: block;
 }
 .container{
-	margin-top: 5px;
 	background: #edeef0;
 	width: 1000px;
 	overflow: hidden;
@@ -165,6 +185,9 @@ ul.main_menu > li:hover > ul.sub_menu{
 	border-right: 1px solid black;
 	border-left: 1px solid black;
 	color: white;
+}
+.p{
+	padding: 0px 0px 5px 0px; 
 }
 .sidebarright{
 	text-align: center;
