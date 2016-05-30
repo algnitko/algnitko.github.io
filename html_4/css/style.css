@@ -101,7 +101,6 @@ menu{
 	font-size: 14px;
 	font-family: "Tahoma";
 	background-color: #303030;
-	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
 ul{
 	display: block;
@@ -113,6 +112,13 @@ ul:after{
     clear: both;
     float: none;
 }
+.main_menu{
+	height: 26px;
+	width: 1000px;
+	position: absolute;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	border-bottom: 1px solid black;
+}
 ul.main_menu > li{
 	float: left;
 	position: relative;
@@ -121,25 +127,26 @@ ul.main_menu > li > a{
 	display: block;
 	color: white;
     text-decoration: none;
-    padding: 4px 35px 0px 40px;
+    padding: 5px 35px 5px 40px;
 }
 .block{
 	position: absolute;
-	top: 439px;
+	top: 12px;
 	right: 738px;
 	border: 3px solid transparent;
 	border-top: 7px solid white;
+	z-index: 2
 }
 .block1{
 	position: absolute;
-	top: 439px;
+	top: 12px;
 	right: 620px;
 	border: 3px solid transparent;
 	border-top: 7px solid white;
 }
 .block2{
 	position: absolute;
-	top: 439px;
+	top: 12px;
 	right: 473px;
 	border: 3px solid transparent;
 	border-top: 7px solid white;
@@ -148,11 +155,10 @@ ul.sub_menu{
 	display: none;
     position: absolute;
     width: 160px;
-    top: 26px;
+    top: 27px;
     left: 0;
     background-color: #303030;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
-    border-top: 1px solid black;
 }
 ul.sub_menu > li{
     display: block;
