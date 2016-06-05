@@ -1,0 +1,249 @@
+@font-face{
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaneue-thin-webfont.svg#helvetica_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helvetica-boldoblique-webfont.eot');
+    src: url('../fonts/helvetica-boldoblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helvetica-boldoblique-webfont.woff2') format('woff2'),
+         url('../fonts/helvetica-boldoblique-webfont.woff') format('woff'),
+         url('../fonts/helvetica-boldoblique-webfont.ttf') format('truetype'),
+         url('../fonts/helvetica-boldoblique-webfont.svg#helveticabold_oblique') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	/*position: relative;*/
+	margin: 0 auto;
+	/*height: 1028px;
+	width: 1215px;*/
+}
+menu{
+	height: 33px;
+	width: 100%;
+	font-size: 14px;
+	font-family: "Helvetica Neue", Tahoma;
+	background-color: #07518f;
+}
+ul{
+	display: block;
+	list-style: none;
+	float: right;
+}
+li{
+	float: right;
+}
+ul:after{
+	display: block;
+    content: '';
+    clear: both;
+    float: none;
+}
+ul.main_menu > li > a{
+	display: block;
+	color: #60b5ed;
+    text-decoration: none;
+    padding: 5px 15px 4px 15px;
+    margin: 4px;
+}
+.bord{
+	border-right: 1px solid #60b5ed;
+}
+ul.main_menu > li > a:hover{
+	background-color: #4eabda;
+    color: white;
+    padding: 9px 15px 8px 15px;
+    margin: 0px 4px 0px 4px;
+}
+ul.secondary_menu > li > a{
+	display: block;
+	color: #ffffff;
+    text-decoration: none;
+}
+ul.secondary_menu > li > a.Cadastre-se{
+	    padding: 9px 15px 7px 5px;
+}
+ul.secondary_menu > li > a.Ofertas{
+	    padding: 9px 15px 7px 5px;
+}
+ul.secondary_menu > li > a:hover{
+	background: linear-gradient(to top, #2e7ac4, #51b1dc);
+    box-shadow: 0px 0px 0px 1px rgba(66,153,210,1);
+    padding: 9px 5px 7px 5px;
+    margin-right: 10px;
+}
+.flag{
+    padding: 7px 5px 0px 5px;
+    height: 22px;
+}
+.back{
+	width: 100%;
+	height: 100%;
+}
+.form1{
+	position: absolute;
+	top: 260px;
+	left: 364px;
+	text-align: center;
+	line-height: 64px;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 610px;
+	height: 60px;
+	font-size: 24px;
+	font-family: "Helvetica Neue", Tahoma;
+	color: white;
+}
+.form2{
+	position: absolute;
+	top: 322px;
+	left: 364px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 610px;
+	height: 570px;
+	font-size: 14px;
+	font-family: "Helvetica Neue", Tahoma;
+	color: white;
+}
+ul.face{
+	float: none;
+	border-radius: 4px;
+	height: 35px;
+	width: 275px;
+	line-height: 15px;
+	background-color: #395292;
+	margin: 30px auto;
+	box-shadow: 0 -1px rgba(117,137,188,1);
+	background: linear-gradient(to top, #395292, #294487);
+}
+.firstletter{
+	float: left;
+	padding: 10px 0px 8px 0px;
+    box-shadow: 1px 0px rgba(33,59,108,0.6);
+}
+.login{
+	float: left;
+    padding: 10px 0px 10px 33px;
+    box-shadow: -1px 0px rgba(76,104,169,0.6);
+    margin-left: 2px;
+}
+.firstletter > a{
+	text-decoration: none;
+	color: white;
+	font-family: "Helvetica Neue", Tahoma;
+	font-size: 19px;
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+}
+.login > a{
+	text-decoration: none;
+	color: white;
+	font-family: "Helvetica Neue", Tahoma;
+	font-size: 14px;
+	text-align: center;
+}
+ul.line{
+	float: none;
+    clear: both;
+    margin: 0 auto;
+    padding: 0px 168px 30px 168px;
+
+}
+.line1, .line2{
+	float: left;
+	height: 1px;
+	width: 120px;
+	box-shadow: 0 -1px grey;
+	background-color: black;
+	margin: 10px 0px;
+}
+.OU{
+	float: left;
+	padding: 0px 7px;
+	color: #939493;
+}
+form{
+	clear: both;
+}
+.First_Name{
+	height: 35px;
+	width: 270px;
+    background-color: black;
+    border: black;
+    border-bottom: 1px solid #939493;
+    color: white;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Tahoma;
+    text-indent: 5px;
+}
+.First_Name:hover{
+	background-color: #1b5288;
+    box-shadow: 0 0 5px 3px rgba(27,82,136,0.6);
+    border: #1f4b77;
+    border-bottom: 1px solid #1b5288;
+}
+.Last, .e_mail, .pass, .pass_confirm, .check, .create, .Terms{
+	margin-top: 20px;
+}
+.Last_Name, .email, .password, .password_confirm{
+	margin: 0px auto;
+	height: 35px;
+	width: 270px;
+    background-color: black;
+    border: black;
+    border-bottom: 1px solid #939493;
+    color: white;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Tahoma;
+    text-indent: 5px;
+}
+.Last_Name:hover {
+	background-color: #1b5288;
+    box-shadow: 0 0 5px 3px rgba(27,82,136,0.6);
+    border: #1f4b77;
+    border-bottom: 1px solid #1b5288;
+}
+.email:hover {
+	background-color: #1b5288;
+    box-shadow: 0 0 5px 3px rgba(27,82,136,0.6);
+    border: #1f4b77;
+    border-bottom: 1px solid #1b5288;
+}
+.password:hover {
+	background-color: #1b5288;
+    box-shadow: 0 0 5px 3px rgba(27,82,136,0.6);
+    border: #1f4b77;
+    border-bottom: 1px solid #1b5288;
+}
+.password_confirm:hover {
+	background-color: #1b5288;
+    box-shadow: 0 0 5px 3px rgba(27,82,136,0.6);
+    border: #1f4b77;
+    border-bottom: 1px solid #1b5288;
+}
+.create_my_account{
+	height: 35px;
+	width: 150px;
+	border: #4eabda;
+	border-radius: 4px;
+	box-shadow: 0 -1px rgba(117,137,188,1);
+	background: linear-gradient(to top, #357596, #5cceff);
+    color: white;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Tahoma;
+    font-weight: bold;
+}
