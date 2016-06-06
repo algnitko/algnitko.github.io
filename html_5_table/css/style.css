@@ -4,29 +4,26 @@
 }
 td{
 	border: 2px solid #000;
+	height: 50px;
+	width: 50px;
+
 }
 table{
 	border-collapse: collapse;
-	font-size: 20px;
 	margin: 0 auto;
+	border: 3px solid white;
 }
 .fff, .sss, .ft{
 	background-color: yellow;
-	color: yellow;
 }
 .ss{
 	background-color: red;
-    color: red;
 }
 .fh, .fhh, .ftt, .fttt, .sxx{
 	background-color: black;
 }
-.sxx, .sn{
-	font-size: 10px;
-}
 .fttttt{
 	background-color: blue;
-    color: blue;
 }
 .s, .thh{
 	padding: 8px 0px;
@@ -34,6 +31,6 @@ table{
 .fhhh{
 	padding: 0px 10px;
 }
-.f, .ff, .s, .th, .thh, .thhh, .fhhh, .fhhhh, .ftttt, .sx, .sn{
-	color: white;
+.sxx, .sn{
+	height: 25px;
 }

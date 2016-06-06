@@ -27,13 +27,14 @@
 	padding: 0;
 }
 .wrapper{
-	position: relative;
-	margin: auto;
-	height: 1028px;
-	width: 1215px;
+	/*position: relative;*/
+	margin: 0 auto;
+	/*height: 1028px;
+	width: 1215px;*/
 }
 menu{
 	height: 33px;
+	width: 100%;
 	font-size: 14px;
 	font-family: "Helvetica Neue", Tahoma;
 	background-color: #07518f;
@@ -42,11 +43,9 @@ ul{
 	display: block;
 	list-style: none;
 	float: right;
-	margin: 0 auto;
 }
 li{
 	float: right;
-
 }
 ul:after{
 	display: block;
@@ -95,17 +94,10 @@ ul.secondary_menu > li > a:hover{
 	width: 100%;
 	height: 100%;
 }
-.container{
-	position: absolute;
-	left: 50%;
-	top: 50%;
-    width: 610px;
-	height: 632px;
-	margin-top: -283px;
-	margin-left: -305px; 
-}
 .form1{
 	position: absolute;
+	top: 260px;
+	left: 364px;
 	text-align: center;
 	line-height: 64px;
 	background-color: rgba(0, 0, 0, 0.6);
@@ -117,7 +109,8 @@ ul.secondary_menu > li > a:hover{
 }
 .form2{
 	position: absolute;
-	top: 62px;
+	top: 322px;
+	left: 364px;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.6);
 	width: 610px;
@@ -197,9 +190,9 @@ form{
     font-family: "Helvetica Neue", Tahoma;
     text-indent: 5px;
 }
-.First_Name:focus{
+.First_Name:hover{
 	background-color: #1b5288;
-    box-shadow: 0 0 5px 4px rgba(79, 154, 243, 0.7);
+    box-shadow: 0 0 5px 3px rgba(27,82,136,0.6);
     border: #1f4b77;
     border-bottom: 1px solid #1b5288;
 }
@@ -218,27 +211,27 @@ form{
     font-family: "Helvetica Neue", Tahoma;
     text-indent: 5px;
 }
-.Last_Name:focus {
+.Last_Name:hover {
 	background-color: #1b5288;
-    box-shadow: 0 0 5px 4px rgba(79, 154, 243, 0.7);
+    box-shadow: 0 0 5px 3px rgba(27,82,136,0.6);
     border: #1f4b77;
     border-bottom: 1px solid #1b5288;
 }
-.email:focus{
+.email:hover {
 	background-color: #1b5288;
-    box-shadow: 0 0 5px 4px rgba(79, 154, 243, 0.7);
+    box-shadow: 0 0 5px 3px rgba(27,82,136,0.6);
     border: #1f4b77;
     border-bottom: 1px solid #1b5288;
 }
-.password:focus {
+.password:hover {
 	background-color: #1b5288;
-    box-shadow: 0 0 5px 4px rgba(79, 154, 243, 0.7);
+    box-shadow: 0 0 5px 3px rgba(27,82,136,0.6);
     border: #1f4b77;
     border-bottom: 1px solid #1b5288;
 }
-.password_confirm:focus {
+.password_confirm:hover {
 	background-color: #1b5288;
-    box-shadow: 0 0 5px 4px rgba(79, 154, 243, 0.7);
+    box-shadow: 0 0 5px 3px rgba(27,82,136,0.6);
     border: #1f4b77;
     border-bottom: 1px solid #1b5288;
 }
