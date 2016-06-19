@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+td{
+	border: 2px solid #000;
+	height: 50px;
+	width: 50px;
+
+}
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	border: 3px solid white;
+}
+.fff, .sss, .ft{
+	background-color: yellow;
+}
+.ss{
+	background-color: red;
+}
+.fh, .fhh, .ftt, .fttt, .sxx{
+	background-color: black;
+}
+.fttttt{
+	background-color: blue;
+}
+.s, .thh{
+	padding: 8px 0px;
+}
+.fhhh{
+	padding: 0px 10px;
+}
+.sxx, .sn{
+	height: 25px;
+}
