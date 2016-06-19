@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Lucida Sans Unicode';
+    src: url('../fonts/lsansuni-webfont.eot');
+    src: url('../fonts/lsansuni-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lsansuni-webfont.woff2') format('woff2'),
+         url('../fonts/lsansuni-webfont.woff') format('woff'),
+         url('../fonts/lsansuni-webfont.ttf') format('truetype'),
+         url('../fonts/lsansuni-webfont.svg#lucida_sans_unicoderegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 *{
 	margin: 0;
 	padding: 0;
@@ -18,7 +30,7 @@ body{
 .telephon{
 	float: left;
 	font-size: 18px;
-	font-family: Arial;
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	color: #5e696d;
 	letter-spacing: 0.4px;
 }
@@ -31,7 +43,7 @@ header{
 	top: -4px;
 	left: 290px;
 	background: linear-gradient(to top, #114165, #1f6787);
-    width: 495px;
+    /*width: 495px;*/
     height: 25px;
     border-radius: 3px;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
@@ -45,7 +57,7 @@ header{
 	height: 14px;
 	border: 1px solid white;
 	vertical-align: 7px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
 	color: #97a2a6;
 	font-size: 11px;
 	text-indent: 3px;
@@ -56,7 +68,7 @@ header{
 }
 .enter, .registration{
     vertical-align: 7px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
 	color: #ffffff;
 	font-size: 11px;
 	text-decoration: none;
@@ -73,13 +85,14 @@ header{
 }
 .forgot{
 	vertical-align: 7px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
 	color: #bfbfbf;
 	font-size: 12px;
 	letter-spacing: -1.1px;
-	border-bottom: 1px solid #bfbfbf;
-	text-decoration: none;
+	/*border-bottom: 1px solid #bfbfbf;*/
+	/*text-decoration: none;*/
 	font-weight: bold;
+	padding-right: 11px;
 }
 .navigation{
 	position: absolute;
@@ -89,6 +102,7 @@ header{
     height: 20px;
     border-radius: 10px;
     border: 1px solid #c2c8cb;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
 .home{
 	display: inline;
@@ -112,7 +126,7 @@ header{
 	height: 34px;
 	width: 911px;
 	font-size: 14px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
 	background: linear-gradient(to top, #000000, #576068);
 	border-radius: 3px;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
@@ -138,32 +152,32 @@ ul.main_menu > li > a{
 }
 .about{
 	letter-spacing: -1.2px;
-    padding-top: 8px;
+    padding-top: 6px;
     margin-left: 146px;
 }
 .pay{
     letter-spacing: -1.2px;
-    padding-top: 8px;
+    padding-top: 6px;
     margin-left: 35px;
 }
 .delivery{
 	letter-spacing: -1.2px;
-    padding-top: 8px;
+    padding-top: 6px;
     margin-left: 29px;
 }
 .articles{
 	letter-spacing: -1.2px;
-    padding-top: 8px;
+    padding-top: 6px;
     margin-left: 28px;
 }
 .contacts{
 	letter-spacing: -1.2px;
-    padding-top: 8px;
+    padding-top: 6px;
     margin-left: 26px;
 }
 .about:hover{
 	letter-spacing: -1.2px;
-    padding: 4px 19px 5px 20px;
+    padding: 2px 19px 2px 20px;
     margin: 4px -19px 0px 126px;
     border-radius: 12px;
     color: white;
@@ -171,7 +185,7 @@ ul.main_menu > li > a{
 }
 .pay:hover{
     letter-spacing: -1.2px;
-    padding: 4px 15px 5px 15px;
+    padding: 2px 15px 2px 15px;
     margin: 4px -15px 0px 20px;
     border-radius: 12px;
     color: white;
@@ -179,7 +193,7 @@ ul.main_menu > li > a{
 }
 .delivery:hover{
 	letter-spacing: -1.2px;
-    padding: 4px 15px 5px 15px;
+    padding: 2px 15px 2px 15px;
     margin: 4px -15px 0px 14px;
     border-radius: 12px;
     color: white;
@@ -187,7 +201,7 @@ ul.main_menu > li > a{
 }
 .articles:hover{
 	letter-spacing: -1.2px;
-    padding: 4px 15px 5px 15px;
+    padding: 2px 15px 2px 15px;
     margin: 4px -15px 0px 13px;
     border-radius: 12px;
     color: white;
@@ -195,7 +209,7 @@ ul.main_menu > li > a{
 }
 .contacts:hover{
 	letter-spacing: -1.2px;
-    padding: 4px 15px 5px 15px;
+    padding: 2px 15px 2px 15px;
     margin: 4px -15px 0px 11px;
     border-radius: 12px;
     color: white;
@@ -208,7 +222,7 @@ ul.main_menu > li > a{
 }
 .main_bag{
 	position: absolute;
-	font-family: Arial;
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	font-size: 12px;
 	color: #0d5a8f;
 	width: 234px;
@@ -218,13 +232,13 @@ ul.main_menu > li > a{
 }
 .product{
 	padding: 0px 2px 0px 28px;
-	font-family: Arial;
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	font-size: 11px;
 	color: #929b9f;
 }
 .account{
     padding: 0px 12px 0px 15px;
-    font-family: Arial;
+    font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	font-size: 11px;
 	color: #929b9f;
 }
@@ -247,7 +261,7 @@ ul.main_menu > li > a{
 	border: 1px solid #acacad;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
     font-size: 12px;
-    font-family: "Arial";
+    font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	color: #154467;
 	padding: 0px 0px 0px 127px; 
 	letter-spacing: 1.4px;
@@ -257,7 +271,7 @@ ul.main_menu > li > a{
 	top: 4px;
 	left: 18px;
 	font-size: 10px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	float: left;
 	width: 185px;
 }
@@ -270,39 +284,26 @@ ul.main_menu > li > a{
 }
 .auto{
 	font-size: 8px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	color: #77858b;
 	padding: 0px 19px 0px 3px;
+}
+select{
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none!important;
+    -moz-appearance: none;
+    background: #fff url(../img/select-arrow-open.png) 100% center no-repeat;
 }
 .type{
     width: 105px;
     height: 20px;
     margin-top: 1px;
-    padding-left: 100px;
     border: 1px solid white;
     box-shadow: inset 1px 1px rgba(159,159,159,1);
 }
-.buttom{
-	position: absolute;
-	top: 17px;
-	right: 7px;
-	height: 17px;
-	width: 17px;
-	border: 1px solid grey;
-	background-color: white;
-    border-radius: 2px;
-    z-index: 1;
-}
-.buttom:active{
-	box-shadow: inset 1px 1px rgba(117,137,188,1);
-}
-.block{
-	position: absolute;
-	top: 23px;
-	right: 10px;
-	border: 5px solid transparent;
-	border-top: 8px solid #0c3256;
-	z-index: 2;
+.type:active{
+	background: #fff url(../img/select-arrow-open-hover.png) 100% center no-repeat;
 }
 .mark{
 	line-height: 0.8;
@@ -311,7 +312,7 @@ ul.main_menu > li > a{
 }
 .automobile{
 	font-size: 9px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	color: #77858b;
 	padding: 0px 19px 0px 0px;
 	letter-spacing: 0.2px;
@@ -320,33 +321,13 @@ ul.main_menu > li > a{
     width: 105px;
     height: 20px;
     margin-top: 3px;
-    padding-left: 100px;
     display: block;
     float: left;
     border: 1px solid white;
     box-shadow: inset 1px 1px rgba(159,159,159,1);
 }
-.buttom1{
-	position: absolute;
-	top: 40px;
-	right: 7px;
-	height: 17px;
-	width: 17px;
-	border: 1px solid grey;
-	background-color: white;
-    border-radius: 2px;
-    z-index: 1;
-}
-.buttom1:active{
-	box-shadow: inset 1px 1px rgba(117,137,188,1);
-}
-.block1{
-	position: absolute;
-	top: 45px;
-	right: 10px;
-	border: 5px solid transparent;
-	border-top: 8px solid #0c3256;
-	z-index: 2;
+.type1:active{
+	background: #fff url(../img/select-arrow-open-hover.png) 100% center no-repeat;
 }
 .year{
 	line-height: 0.8;
@@ -356,7 +337,7 @@ ul.main_menu > li > a{
 }
 .automobile1{
 	font-size: 9px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	color: #77858b;
 	padding: 0px 19px 0px 0px;
 	letter-spacing: 0.2px;
@@ -369,32 +350,13 @@ ul.main_menu > li > a{
     border: 1px solid white;
     box-shadow: inset 1px 1px rgba(159,159,159,1);
 }
-.buttom2{
-	position: absolute;
-	top: 62px;
-	right: 51px;
-	height: 17px;
-	width: 17px;
-	border: 1px solid grey;
-	background-color: white;
-    border-radius: 2px;
-    z-index: 1;
-}
-.buttom2:active{
-	box-shadow: inset 1px 1px rgba(117,137,188,1);
-}
-.block2{
-	position: absolute;
-	top: 68px;
-	right: 54px;
-	border: 5px solid transparent;
-	border-top: 8px solid #0c3256;
-	z-index: 2;
+.type2:active{
+	background: #fff url(../img/select-arrow-open-hover.png) 100% center no-repeat;
 }
 .complectashion{
 	padding: 5px 1px 0px 0px;
 	font-size: 9px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	letter-spacing: 0.9px;
 	float: left;
 }
@@ -406,34 +368,15 @@ ul.main_menu > li > a{
     border: 1px solid white;
     box-shadow: inset 1px 1px rgba(159,159,159,1);
 }
-.buttom3{
-	position: absolute;
-	top: 84px;
-	right: 7px;
-	height: 17px;
-	width: 17px;
-	border: 1px solid grey;
-	background-color: white;
-    border-radius: 2px;
-    z-index: 1;
-}
-.buttom3:active{
-	box-shadow: inset 1px 1px rgba(117,137,188,1);
-}
-.block3{
-	position: absolute;
-	top: 89px;
-	right: 10px;
-	border: 5px solid transparent;
-	border-top: 8px solid #0c3256;
-	z-index: 2;
+.type3:active{
+	background: #fff url(../img/select-arrow-open-hover.png) 100% center no-repeat;
 }
 .tires{
 	position: absolute;
 	top: 2px;
 	left: 223px;
 	font-size: 10px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	float: left;
 	width: 185px;
 }
@@ -448,7 +391,7 @@ ul.main_menu > li > a{
 	padding: 3px 15px 3px 0px;
     text-align: right;
     font-size: 14px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	font-style: italic;
 	color: #154467;
 	display: block;
@@ -463,12 +406,12 @@ ul.main_menu > li > a{
 	border: 1px solid #acacad;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
     font-size: 10px;
-    font-family: "Lucida Sans Unicode";
+    font-family: "Lucida Sans Unicode", Arial, Tahoma;
 	padding: 0px 0px 0px 0px; 
 	float: left;
 }
 .ft{
-	font-family: Arial;
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	font-weight: bold;
     color: #114165;
     letter-spacing: 1.1px;
@@ -488,6 +431,9 @@ ul.main_menu > li > a{
     box-shadow: inset 1px 1px rgba(159,159,159,1);
     font-size: 11px;
 }
+.type4:active{
+	background: #fff url(../img/select-arrow-open-hover.png) 100% center no-repeat;
+}
 .type5{
 	width: 53px;
     height: 19px;
@@ -497,53 +443,12 @@ ul.main_menu > li > a{
     box-shadow: inset 1px 1px rgba(159,159,159,1);
     font-size: 11px;
 }
-.buttom4{
-	position: absolute;
-	top: 22px;
-	right: 80px;
-	height: 17px;
-	width: 17px;
-	border: 1px solid grey;
-	background-color: white;
-    border-radius: 2px;
-    z-index: 1;
-}
-.buttom4:active{
-	box-shadow: inset 1px 1px rgba(117,137,188,1);
-}
-.block4{
-	position: absolute;
-	top: 28px;
-	right: 84px;
-	border: 5px solid transparent;
-	border-top: 8px solid #0c3256;
-	z-index: 2;
-}
-.buttom5{
-	position: absolute;
-	top: 22px;
-	right: 13px;
-	height: 17px;
-	width: 17px;
-	border: 1px solid grey;
-	background-color: white;
-    border-radius: 2px;
-    z-index: 1;
-}
-.buttom5:active{
-	box-shadow: inset 1px 1px rgba(117,137,188,1);
-}
-.block5{
-	position: absolute;
-	top: 28px;
-	right: 16px;
-	border: 5px solid transparent;
-	border-top: 8px solid #0c3256;
-	z-index: 2;
+.type5:active{
+	background: #fff url(../img/select-arrow-open-hover.png) 100% center no-repeat;
 }
 .radius{
     margin: 5px 0px 0px 46px; 
-    font-family: Arial;
+    font-family: Arial, "Lucida Sans Unicode", Tahoma;
     font-size: 11px;
 }
 .type6{
@@ -555,32 +460,13 @@ ul.main_menu > li > a{
     box-shadow: inset 1px 1px rgba(159,159,159,1);
     font-size: 11px;
 }
-.buttom6{
-	position: absolute;
-	top: 46px;
-	right: 86px;
-	height: 17px;
-	width: 17px;
-	border: 1px solid grey;
-	background-color: white;
-    border-radius: 2px;
-    z-index: 1;
-}
-.buttom6:active{
-	box-shadow: inset 1px 1px rgba(117,137,188,1);
-}
-.block6{
-	position: absolute;
-	top: 51px;
-	right: 89px;
-	border: 5px solid transparent;
-	border-top: 8px solid #0c3256;
-	z-index: 2;
+.type6:active{
+	background: #fff url(../img/select-arrow-open-hover.png) 100% center no-repeat;
 }
 .season{
 	margin: 3px 0px 0px 15px; 
     font-size: 10px;
-    font-family: "Lucida Sans Unicode";
+    font-family: "Lucida Sans Unicode", Arial, Tahoma;
 }
 .check{
     position: absolute;
@@ -594,13 +480,13 @@ ul.main_menu > li > a{
     right: 82px;
     line-height: 1.15;
     font-size: 12px;
-    font-family: "Lucida Sans Unicode";
+    font-family: "Lucida Sans Unicode", Arial, Tahoma;
 }
 .find1{
 	padding: 28px 19px 5px 0px;
     text-align: right;
     font-size: 14px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	font-style: italic;
 	color: #154467;
 	display: block;
@@ -615,7 +501,7 @@ ul.main_menu > li > a{
 	border: 1px solid #acacad;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
     font-size: 12px;
-    font-family: "Arial";
+    font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	color: #154467;
 	padding: 3px 0px 0px 10px; 
 	letter-spacing: 0.7px;
@@ -625,14 +511,14 @@ ul.main_menu > li > a{
 	top: 16px;
 	right: 102px;
 	font-size: 10px;
-    font-family: "Lucida Sans Unicode";
+    font-family: "Lucida Sans Unicode", Arial, Tahoma;
 	float: left;
 	width: 160px;
 	letter-spacing: 0.7px;
 }
 .diam{
 	font-size: 9px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
 	color: #77858b;
 	padding: 0px 0px 0px 5px;
 }
@@ -644,42 +530,21 @@ ul.main_menu > li > a{
     border: 1px solid white;
     box-shadow: inset 1px 1px rgba(159,159,159,1);
     font-size: 11px;
-    font-family: "Arial";
+    font-family: Arial, "Lucida Sans Unicode", Tahoma;
 }
-.buttom7{
-	position: absolute;
-	top: 3px;
-	right: 15px;
-	height: 18px;
-	width: 18px;
-	border: 1px solid grey;
-	background-color: white;
-    border-radius: 2px;
-    z-index: 1;
-}
-.buttom7:active{
-	box-shadow: inset 1px 1px rgba(117,137,188,1);
-}
-.block7{
-	position: absolute;
-	top: 9px;
-	right: 19px;
-	border: 5px solid transparent;
-	border-top: 8px solid #0c3256;
-	z-index: 2;
-	font-size: 11px;
-	font-family: "Arial";
+.type7:active{
+	background: #fff url(../img/select-arrow-open-hover.png) 100% center no-repeat;
 }
 .number{
 	line-height: 0.9;
 	float: left;
 	padding-top: 2px;
 	font-size: 10px;
-    font-family: "Lucida Sans Unicode";
+    font-family: "Lucida Sans Unicode", Arial, Tahoma;
 }
 .hole{
 	font-size: 9px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
 	color: #77858b;
 	padding: 0px 43px 0px 0px;
 	letter-spacing: 0.4px;
@@ -694,41 +559,20 @@ ul.main_menu > li > a{
     border: 1px solid white;
     box-shadow: inset 1px 1px rgba(159,159,159,1);
 }
-.buttom8{
-	position: absolute;
-	top: 35px;
-	right: 19px;
-	height: 18px;
-	width: 18px;
-	border: 1px solid grey;
-	background-color: white;
-    border-radius: 2px;
-    z-index: 1;
-}
-.buttom8:active{
-	box-shadow: inset 1px 1px rgba(117,137,188,1);
-}
-.block8{
-	position: absolute;
-	top: 41px;
-	right: 23px;
-	border: 5px solid transparent;
-	border-top: 8px solid #0c3256;
-	z-index: 2;
-	font-size: 11px;
-	font-family: "Arial";
+.type8:active{
+	background: #fff url(../img/select-arrow-open-hover.png) 100% center no-repeat;
 }
 .dia_hole{
 	line-height: 1.05;
 	float: left;
 	margin-top: -6px;
 	font-size: 10px;
-    font-family: "Lucida Sans Unicode";
+    font-family: "Lucida Sans Unicode", Arial, Tahoma;
     letter-spacing: 0.8px;
 }
 .hole1{
 	font-size: 9px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
 	color: #77858b;
 	padding: 0px 10px 0px 0px;
 	letter-spacing: 0.9px;
@@ -741,36 +585,15 @@ ul.main_menu > li > a{
     border: 1px solid white;
     box-shadow: inset 1px 1px rgba(159,159,159,1);
 }
-.buttom9{
-	position: absolute;
-	top: 67px;
-	right: 11px;
-	height: 18px;
-	width: 18px;
-	border: 1px solid grey;
-	background-color: white;
-    border-radius: 2px;
-    z-index: 1;
-}
-.buttom9:active{
-	box-shadow: inset 1px 1px rgba(117,137,188,1);
-}
-.block9{
-	position: absolute;
-	top: 73px;
-	right: 15px;
-	border: 5px solid transparent;
-	border-top: 8px solid #0c3256;
-	z-index: 2;
-	font-size: 11px;
-	font-family: "Arial";
+.type9:active{
+	background: #fff url(../img/select-arrow-open-hover.png) 100% center no-repeat;
 }
 .center_hole{
 	position: absolute;
 	top: 2px;
 	right: 11px;
 	font-size: 9px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
 	float: left;
 	width: 82px;
 	border-left: 1px solid grey;
@@ -783,7 +606,7 @@ ul.main_menu > li > a{
     text-align: left;
     line-height: 1;
     font-size: 8px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
 	margin-top: -3px;
 }
 .type10{
@@ -794,29 +617,10 @@ ul.main_menu > li > a{
     border: 1px solid white;
     box-shadow: inset 1px 1px rgba(159,159,159,1);
     font-size: 11px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 }
-.buttom10{
-	position: absolute;
-	top: 40px;
-	right: 21px;
-	height: 18px;
-	width: 18px;
-	border: 1px solid grey;
-	background-color: white;
-    border-radius: 2px;
-    z-index: 1;
-}
-.buttom10:active{
-	box-shadow: inset 1px 1px rgba(117,137,188,1);
-}
-.block10{
-	position: absolute;
-	top: 45px;
-	right: 25px;
-	border: 5px solid transparent;
-	border-top: 8px solid #0c3256;
-	z-index: 2;
+.type10:active{
+	background: #fff url(../img/select-arrow-open-hover.png) 100% center no-repeat;
 }
 .ET{
 	margin: 2px 0px 0px 2px;
@@ -828,7 +632,7 @@ ul.main_menu > li > a{
     text-align: left;
     line-height: 1;
     font-size: 8px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
 	margin-top: -3px;
 }
 .type11{
@@ -839,35 +643,16 @@ ul.main_menu > li > a{
     border: 1px solid white;
     box-shadow: inset 1px 1px rgba(159,159,159,1);
     font-size: 11px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 }
-.buttom11{
-	position: absolute;
-	top: 85px;
-	right: 21px;
-	height: 18px;
-	width: 18px;
-	border: 1px solid grey;
-	background-color: white;
-    border-radius: 2px;
-    z-index: 1;
-}
-.buttom11:active{
-	box-shadow: inset 1px 1px rgba(117,137,188,1);
-}
-.block11{
-	position: absolute;
-	top: 91px;
-	right: 25px;
-	border: 5px solid transparent;
-	border-top: 8px solid #0c3256;
-	z-index: 2;
+.type11:active{
+	background: #fff url(../img/select-arrow-open-hover.png) 100% center no-repeat;
 }
 .find2{
 	padding: 2px 20px 0px 0px;
     text-align: right;
     font-size: 14px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	font-style: italic;
 	color: #154467;
 	display: block;
@@ -879,7 +664,7 @@ ul.main_menu > li > a{
     padding: 0px 0px 0px 0px;
     text-align: left;
     font-size: 14px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #114165;
 }
 .catalog{
@@ -890,7 +675,7 @@ ul.main_menu > li > a{
     line-height: 24px;
     letter-spacing: -0.5px;
     font-size: 12px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #114165;
     font-weight: bold;
     border: 1px solid grey;
@@ -909,7 +694,7 @@ ul.main_menu > li > a{
     line-height: 26px;
     letter-spacing: -1px;
     font-size: 14px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #114165;
     font-weight: bold;
     border: 1px solid grey;
@@ -923,23 +708,23 @@ ul.main_menu > li > a{
 .iname{
     width: 145px;
     margin: 0px 0px 0px 47px;
-    padding: 3px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     text-align: left;
     list-style-type: circle;
 }
 ul.iname > li{
-    padding: 0px 0px 7px 0px;
+    padding: 0px 0px 4px 0px;
 }
 ul.iname > li > a{
     line-height: 19px;
     font-size: 13px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #465961;
     text-decoration: none;
 }
 ul.iname > li > a:hover{
     font-size: 14px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
     color: #0c3256;
     font-weight: bold;
     text-decoration: underline;
@@ -948,12 +733,12 @@ ul.iname > li > a:hover{
 .Diski{
 	width: 145px;
 	height: 25px;
-    margin: -7px 0px 0px 2px;
+    margin: -4px 0px 0px 2px;
     padding: 1px 0px 0px 3px;
     line-height: 26px;
     letter-spacing: -1px;
     font-size: 14px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #114165;
     font-weight: bold;
     border: 1px solid grey;
@@ -967,23 +752,23 @@ ul.iname > li > a:hover{
 .iname1{
     width: 145px;
     margin: 0px 0px 0px 47px;
-    padding: 3px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     text-align: left;
     list-style-type: circle;
 }
 ul.iname1 > li{
-    padding: 0px 0px 6px 0px;
+    padding: 0px 0px 4px 0px;
 }
 ul.iname1 > li > a{
     line-height: 19px;
     font-size: 13px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #465961;
     text-decoration: none;
 }
 ul.iname1 > li > a:hover{
     font-size: 14px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
     color: #0c3256;
     font-weight: bold;
     text-decoration: underline;
@@ -992,12 +777,12 @@ ul.iname1 > li > a:hover{
 .Screw{
 	width: 145px;
 	height: 25px;
-    margin: -4px 0px 0px 2px;
+    margin: -5px 0px 0px 2px;
     padding: 1px 0px 0px 3px;
     line-height: 26px;
     letter-spacing: -1px;
     font-size: 14px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #114165;
     font-weight: bold;
     border: 1px solid grey;
@@ -1011,23 +796,23 @@ ul.iname1 > li > a:hover{
 .iname2{
     width: 145px;
     margin: 0px 0px 0px 47px;
-    padding: 3px 0px 0px 0px;
+    padding: 1px 0px 0px 0px;
     text-align: left;
     list-style-type: circle;
 }
 ul.iname2 > li{
-    padding: 0px 0px 6px 0px;
+    padding: 0px 0px 3px 0px;
 }
 ul.iname2 > li > a{
-    line-height: 19px;
+    line-height: 22px;
     font-size: 13px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #465961;
     text-decoration: none;
 }
 ul.iname2 > li > a:hover{
     font-size: 14px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
     color: #0c3256;
     font-weight: bold;
     text-decoration: underline;
@@ -1041,7 +826,7 @@ ul.iname2 > li > a:hover{
     padding: 0px 0px 0px 0px;
     text-align: center;
     font-size: 15px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #206988;
     border-radius: 3px;
     background: linear-gradient(to top, #234b5d, #c9cfd1);
@@ -1050,7 +835,7 @@ ul.iname2 > li > a:hover{
 .first_line{
 	width: 473px;
 	height: 190px;
-	margin: 13px 0px 0px 23px;
+	margin: 10px 0px 0px 23px;
     padding: 0px 0px 0px 0px;
 }
 .Goodyear{
@@ -1061,9 +846,9 @@ ul.iname2 > li > a:hover{
 }
 .Ult{
 	font-size: 13px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #1f2528;
-    margin: -4px 0px 0px 3px;
+    margin: -9px 0px -3px 3px;
     padding: 0px 0px 0px 0px;
 }
 .fon{
@@ -1079,7 +864,7 @@ ul.iname2 > li > a:hover{
 }
 .price{
     font-size: 16px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
     color: #114165;
     font-style: italic;
     font-weight: bold;
@@ -1087,7 +872,7 @@ ul.iname2 > li > a:hover{
 }
 .uah{
 	font-size: 12px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
     color: #114165;
     font-style: italic;
     font-weight: bold;
@@ -1102,9 +887,9 @@ ul.iname2 > li > a:hover{
 }
 .Hakka{
 	font-size: 13px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #1f2528;
-    margin: -4px 0px 0px 3px;
+    margin: -9px 0px -3px 3px;
     padding: 0px 0px 0px 0px;
     letter-spacing: -0.2px;
 }
@@ -1121,7 +906,7 @@ ul.iname2 > li > a:hover{
 }
 .price1{
     font-size: 16px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
     color: #114165;
     font-style: italic;
     font-weight: bold;
@@ -1129,7 +914,7 @@ ul.iname2 > li > a:hover{
 }
 .uah1{
 	font-size: 12px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
     color: #114165;
     font-style: italic;
     font-weight: bold;
@@ -1147,9 +932,9 @@ ul.iname2 > li > a:hover{
 }
 .K_708{
 	font-size: 13px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #1f2528;
-    margin: -4px 0px 0px 6px;
+    margin: -8px 0px -4px 6px;
     padding: 0px 0px 0px 0px;
     letter-spacing: 0px;
 }
@@ -1166,7 +951,7 @@ ul.iname2 > li > a:hover{
 }
 .price2{
     font-size: 16px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
     color: #114165;
     font-style: italic;
     font-weight: bold;
@@ -1174,7 +959,7 @@ ul.iname2 > li > a:hover{
 }
 .uah2{
 	font-size: 12px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
     color: #114165;
     font-style: italic;
     font-weight: bold;
@@ -1183,13 +968,13 @@ ul.iname2 > li > a:hover{
 .second_line{
 	width: 473px;
 	height: 190px;
-	margin: 12px 0px 0px 23px;
+	margin: 11px 0px 0px 23px;
     padding: 0px 0px 0px 0px;
 }
 .third_line{
 	width: 473px;
 	height: 190px;
-	margin: 13px 0px 0px 23px;
+	margin: 15px 0px 0px 23px;
     padding: 0px 0px 0px 0px;
 }
 .right{
@@ -1199,7 +984,7 @@ ul.iname2 > li > a:hover{
     padding: 0px 0px 0px 0px;
     text-align: left;
     font-size: 14px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #114165;
 }
 .Brends{
@@ -1210,7 +995,7 @@ ul.iname2 > li > a:hover{
     line-height: 24px;
     letter-spacing: -1.2px;
     font-size: 14px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #0c3256;
     font-weight: bold;
     border: 1px solid grey;
@@ -1229,7 +1014,7 @@ ul.iname2 > li > a:hover{
     line-height: 25px;
     letter-spacing: 0px;
     font-size: 14px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
     color: #0c3256;
     font-weight: bold;
     border: 1px solid grey;
@@ -1242,11 +1027,11 @@ ul.iname2 > li > a:hover{
 }
 .check111{
     width: 145px;
-    margin: 2px 0px 0px 24px;
+    margin: 3px 0px 0px 24px;
     text-align: left;
     line-height: 1.92;
     font-size: 13px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #465961;
 }
 .brend1{
@@ -1261,16 +1046,16 @@ ul.iname2 > li > a:hover{
 .Diski1{
 	width: 132px;
 	height: 25px;
-    margin: 10px 0px 0px 14px;
+    margin: 9px 0px 4px 14px;
     padding: 1px 0px 0px 3px;
     line-height: 23px;
     letter-spacing: -1px;
     font-size: 14px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #0c3256;
     font-weight: bold;
     border: 1px solid grey;
-    border-radius: 19px;
+    border-radius: 12px;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
 }
 .circle4{
@@ -1283,7 +1068,7 @@ ul.iname2 > li > a:hover{
     text-align: left;
     line-height: 1.92;
     font-size: 13px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", Arial, Tahoma;
     color: #465961;
 }
 input[class="Choose1"]{
@@ -1294,12 +1079,12 @@ input[class="Choose1"]{
 	display: block;
 	background: linear-gradient(to top, #206988, #0c3256);
 	font-size: 11px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
     color: #e5e9ea;
     border: 1px solid #0c3256;
     border-radius: 19px;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
-    letter-spacing: 1.5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+    letter-spacing: 1.1px;
 }
 .many_logo{
 	clear: both;
@@ -1326,7 +1111,7 @@ ul.footer_menu > li > a{
 	color: #bec6c9;
     text-decoration: none;
     font-size: 12px;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 }
 .br1{
 	width: 12px;
@@ -1374,7 +1159,7 @@ ul.footer_menu > li > a{
 	clear: both;
 	margin: 28px 0px 0px 0px;
 	text-align: center;
-	font-family: "Arial";
+	font-family: Arial, "Lucida Sans Unicode", Tahoma;
 	font-size: 10px;
 	color: #7f4740;
 }
