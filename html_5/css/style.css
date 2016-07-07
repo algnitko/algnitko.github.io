@@ -29,8 +29,8 @@
 .wrapper{
 	position: relative;
 	margin: auto;
-	height: 1028px;
-	width: 1215px;
+	height: 100%;
+	width: 100%;
 }
 menu{
 	height: 33px;

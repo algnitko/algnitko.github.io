@@ -1,0 +1,1232 @@
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/league_gothic-webfont.eot');
+    src: url('../fonts/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/league_gothic-webfont.woff2') format('woff2'),
+         url('../fonts/league_gothic-webfont.woff') format('woff'),
+         url('../fonts/league_gothic-webfont.ttf') format('truetype'),
+         url('../fonts/league_gothic-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans Extra Bold';
+    src: url('../fonts/opensans-extrabold-webfont.eot');
+    src: url('../fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-extrabold-webfont.woff') format('woff'),
+         url('../fonts/opensans-extrabold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    position: relative;
+    background: url(../img/header_bc.png) center 0 no-repeat,
+                url(../img/footer.png) center 2191px no-repeat;
+}
+.sliderfield{
+    width: 2400px;
+    height: 401px;
+    background-color: rgba(0,0,0,0.2);
+    margin: 0 auto;
+    margin-top: 277px;
+}
+.purplefield{
+    width: 2400px;
+    height: 342px;
+    margin: 0 auto;
+    background: linear-gradient(#322539, #745083);
+    box-shadow: 0px 2px 8px rgba(113,78,127,0.9);
+    border-top: 1px solid #000000;
+    margin-top: 168px;
+}
+.whitefield{
+    width: 2400px;
+    height: 485px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #D2D2D2;
+    margin: 0 auto;
+}
+.logofield{
+    width: 2400px;
+    height: 118px;
+    background-color: #f9f9f9;
+    margin: 1px auto;
+}
+.greyfield{
+    width: 2400px;
+    height: 396px;
+    background-color: #ececec;
+    box-shadow: 0px 5px 0px rgba(0,0,0,0.2);
+    margin: 0 auto;
+    border-top: 1px solid #D2D2D2;
+}
+.wrapper{
+    position: absolute;
+    left: 50%;
+    top: -277px;
+    margin-left: -480px;
+    max-width: 960px;
+    color: white;
+}
+header{
+    margin: 61px 0px 0px 0px;
+    height: 785px;
+}
+header:after{
+    display: block;
+    content: '';
+    clear: both;
+    float: none;
+}
+.pin{
+    float: left;
+    font-size: 48px;
+    font-family: "League Gothic";
+    color: #ffffff;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    letter-spacing: -0.5px;
+}
+.er{
+    color: #322539;
+}
+.menu{
+    display: block;
+    padding: 11px 0px 0px 0px;
+    margin: 0px 0px 176px 0px;
+    float: right;
+}
+.menu__item1{
+    float: left;
+    margin: 0px 0px 0px 0px;
+    list-style: none;
+}
+.menu480{
+    display: none;
+}
+.menu__item{
+    float: left;
+    margin: 0px 0px 0px 51.7px;
+    list-style: none;
+}
+.menu__link{
+    display: block;
+    font-size: 24px;
+    font-family: "League Gothic";
+    color: #ffffff;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    letter-spacing: 0px;
+    text-decoration: none;
+    padding: 0px 0px 2px 0px;
+}
+.menu__link:hover{
+    border-bottom: 2px solid #edbfff;
+    padding: 0px 0px 0px 0px;
+}
+.slider{
+    height: 400px;
+    clear: both;
+}
+.slider__head{
+    width: 54%;
+    font-size: 60px;
+    font-family: "League Gothic";
+    letter-spacing: -0.35px;
+    padding-top: 72px;
+    float: left;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+.slider--head1{
+    width: 100%;
+    font-size: 32px;
+    padding-top: 0px;
+    color: #edbfff;
+    letter-spacing: 0px;
+    margin-top: -10px;
+}
+.text{
+    font-size: 18px;
+    font-family: "Open Sans Light";
+    margin-top: 31px;
+    letter-spacing: -0.17px;
+    line-height: 24px;
+    hyphens: auto;
+}
+.iphone{
+    margin: -17px 0px 0px 10.2%;
+}
+.slider__point{
+    margin: 93px 0px 0px 73.5%;
+    padding-bottom: 75px;
+}
+.slider__circle{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.5);
+    float: left;
+    margin-left: 6px;
+}
+.slider__circle:active{
+    border: 2px solid rgba(0,0,0,1);
+    width: 12px;
+    height: 12px;
+    background-color: white;
+}
+.company{
+    height: 341px;
+}
+.company:after{
+    display: block;
+    content: '';
+    clear: both;
+    float: none;
+}
+.company__block{
+    width: 30%;
+    float: left;
+    margin: 73px 0px 0px 0.6%;
+}
+.company__sprite{
+    width: 32px;
+    height: 32px;
+    background: url(../img/sprite.png) 0 0 no-repeat;
+    float: left;
+    margin: 7px 0px 0px 4px;
+}
+.company__head{
+    width: 80%;
+    float: right;
+    font-size: 30px;
+    font-family: "League Gothic";
+    letter-spacing: -0.19px;
+}
+.text--company{
+    font-size: 16px;
+    margin-top: 5px;
+    letter-spacing: -0.17px;
+    line-height: 24px;
+    hyphens: auto;
+}
+.company__r{
+    margin: 7px 0px 0px 69%;
+}
+.company__read{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.company__read:hover{
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+}
+.company__block--block1{
+    margin: 73px 0px 0px 5.3%;
+}
+.company__sprite--sprite1{
+    background-position: -32px 2px;
+}
+.company__r1{
+    margin: 7px 0px 0px 71%;
+}
+.company__block--block2{
+    width: 28.6%;
+    margin: 73px 0px 0px 5.5%;
+}
+.company__sprite--sprite2{
+    background-position: -67px 2px;
+}
+.company__r2{
+    margin: 7px 0px 0px 74%;
+}
+content:after{
+    display: block;
+    content: '';
+    clear: both;
+    float: none;
+}
+.slidersend{
+    float: left;
+    width: 47%;
+}
+.slidersend__head{
+    margin: 100px 0px 0px 5.3%;
+    height: 209px;
+    background-color: white;
+    color: black;
+    position: relative;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    font-size: 30px;
+    font-family: "League Gothic";
+    letter-spacing: -0.2px;
+    padding: 26px 34px 37px 38px;
+}
+.foto{
+    position: absolute;
+    top: 18px;
+    left: -24px;
+}
+.slidersend__head:before{ 
+    content: ''; 
+    position: absolute; 
+    width: 0; 
+    height: 0; 
+    right: 40px; 
+    top: 100%; 
+    border: 11px solid; 
+    border-color: #D2D2D2 #D2D2D2 transparent transparent;
+}
+.slidersend__head:after{ 
+    content: ''; 
+    position: absolute; 
+    width: 0; 
+    height: 0; 
+    right: 40px; 
+    top: 100%; 
+    border: 10px solid; 
+    border-color: #fff #fff transparent transparent; 
+}
+.slidersend__head1{
+    color: #edbfff;
+    padding-left: 5px;
+    letter-spacing: 0.3px;
+}
+.text--slidersend{
+    font-size: 16px;
+    margin-top: 5px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    height: 170px;
+    overflow: hidden;
+    hyphens: auto;
+}
+.white_points{
+    margin: 24.2px 0px 0px 42.3%;
+}
+.slider--white{
+    background-color: rgba(255,255,255,1);
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+.slider--white:active{
+    border: 2px solid rgba(255,255,255,1);
+    background-color: black;
+}
+.recent{
+    float: right;
+    margin: 126px 0px 87px 0px;
+    height: 273px;
+    width: 47%;
+    color: black;
+    font-size: 30px;
+    font-family: "League Gothic";
+    letter-spacing: 0.15px;
+}
+.recent:after{
+    display: block;
+    content: '';
+    clear: both;
+    float: none;
+}
+.recent__up:after{
+    display: block;
+    content: '';
+    clear: both;
+    float: none;
+}
+.recent__up{
+    margin: 0px 0px 0px 0px;
+}
+.images{
+    margin: 13px 0px 0px 2px;
+    float: left;
+}
+.post, .post1, .post2{
+    display: block;
+    padding-bottom: 17px;
+}
+.text--recentbold{
+    font-family: "Open Sans Extra Bold";
+    font-size: 16px;
+    margin: 12px 0px 0px 15%;
+    letter-spacing: 0px;
+}
+.text--recent{
+    font-size: 16px;
+    margin: 0px 0px 18px 0px;
+    letter-spacing: 0px;
+}
+.readblack{
+    margin: 20px 0px 0px 73%;
+}
+.read--more{
+    text-decoration: none;
+}
+.read--black{
+    font-size: 18px;
+    font-family: "League Gothic";
+    text-decoration: none;
+    color: black;
+    letter-spacing: -0.4px;
+}
+.read--blog{
+    display: none;
+}
+.logo{
+    height: 123px;
+    clear: both;
+}
+.fotologo{
+    height: 120px;
+    background: url(../img/logo.png) center 27px no-repeat;
+}
+.fon1{
+    height: 396px;
+}
+.pig{
+    float: left;
+    font-size: 48px;
+    font-family: "League Gothic";
+    color: black;
+    letter-spacing: -0.5px;
+    margin: 89px 0px 0px 0px;
+    width: 30%;
+}
+.pig__er{
+    color: #b9b9b9;
+}
+.pig__copyright{
+    font-family: Georgia;
+    font-size: 16px;
+    font-style: italic;
+    color: #c5c5c5;
+    margin: 7px 0px 0px 0px;
+    letter-spacing: -0.13px;
+}
+.text--pig{
+    font-size: 16px;
+    margin: 10px 0px 0px 0px;
+    letter-spacing: 0px;
+    hyphens: auto;
+}
+.pig__comments{
+    float: left;
+    font-size: 30px;
+    font-family: "League Gothic";
+    color: black;
+    letter-spacing: 0px;
+    margin: 93px 0px 0px 5.2%;
+    width: 30%;
+}
+.text--comments{
+    font-size: 16px;
+    margin: 5px 0px 0px 0px;
+    letter-spacing: 0px;
+    hyphens: auto;
+}
+.pig__news{
+    float: left;
+    font-size: 30px;
+    font-family: "League Gothic";
+    color: black;
+    letter-spacing: 0px;
+    margin: 93px 0px 0px 5.4%;
+    width: 29.4%;
+}
+.text--news{
+    font-size: 16px;
+    margin: 5px 0px 0px 0px;
+    letter-spacing: 0px;
+    hyphens: auto;
+}
+.pig__news--1{
+    display: none;
+}
+.pig__news--2{
+    display: none;
+}
+footer{
+    height: 113px;
+}
+.menu--footer{
+    padding: 44px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+.menu__item--footer{
+    float: left;
+    margin: 0px 44px 0px 0px;
+    list-style: none;
+}
+.menu__link--footer{
+    font-size: 20px;
+}
+.menu__link--footer:hover{
+    border-bottom: none;
+}
+.design{
+    padding: 51px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Open Sans Light";
+    font-size: 12px;
+    float: right;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+.pingbull{
+    font-family: "Open Sans Extra Bold";
+}
+
+@media (max-width: 768px){
+
+body{
+    position: relative;
+    background: url(../img/header_bc.png) center 0 no-repeat,
+                url(../img/footer768.png) center 2145px no-repeat;
+}
+.sliderfield{
+    width: 2400px;
+    height: 401px;
+    background-color: rgba(0,0,0,0.2);
+    margin: 0 auto;
+    margin-top: 244px;
+}
+.purplefield{
+    width: 2400px;
+    height: 342px;
+    margin: 0 auto;
+    background: linear-gradient(#322539, #745083);
+    box-shadow: 0px 2px 8px rgba(113,78,127,0.9);
+    border-top: 1px solid #000000;
+    margin-top: 153px;
+}
+.whitefield{
+    width: 2400px;
+    height: 486px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #D2D2D2;
+    margin: 0 auto;
+}
+.logofield{
+    width: 2400px;
+    height: 118px;
+    background-color: #f9f9f9;
+    margin: 1px auto;
+}
+.greyfield{
+    width: 2400px;
+    height: 396px;
+    background-color: #ececec;
+    box-shadow: 0px 5px 0px rgba(0,0,0,0.2);
+    margin: 0 auto;
+    border-top: 1px solid #D2D2D2;
+}
+.wrapper{
+    position: absolute;
+    left: 50%;
+    top: -244px;
+    margin-left: -384px;
+    max-width: 768px;
+    color: white;
+}
+header{
+    height: 737px;
+}
+.pin{
+    padding-left: 18px;
+}
+.menu{
+    margin: 11px 0px 73px 19px;
+    float: left;
+}
+.slider__head{
+    width: 35%;
+    font-size: 48px;
+    letter-spacing: -0.2px;
+    padding: 93px 0px 0px 43px;
+    float: left;
+    height: 200px;
+    overflow: hidden;
+
+}
+.slider--head1{
+    width: 100%;
+    height: 23px;
+    font-size: 24px;
+    padding: 0px;
+    letter-spacing: -0.1px;
+    margin-top: 1px;
+    overflow: hidden;
+}
+.text{
+    font-size: 16px;
+    margin-top: 33px;
+    letter-spacing: -0.17px;
+    line-height: 26px;
+    height: 110px;
+}
+.iphone{
+    margin: -23px 0px 0px 17.6%;
+}
+.slider__point{
+    margin: 38px 0px 0px 70%;
+}
+.company__block{
+    width: 25%;
+    margin: 75px 0px 0px 5.6%;
+}
+.company__sprite{
+    margin: 1px 0px 0px -13px;
+}
+.company__head{
+    font-size: 24px;
+}
+.text--company{
+    margin-top: 1px;
+    line-height: 24px;
+    height: 150px;
+    overflow: hidden;
+}
+.company__r{
+    margin: -5px 0px 0px 59%;
+}
+.company__block--block1{
+    margin: 75px 0px 0px 8%;
+}
+.company__sprite--sprite1{
+    background-position: -1px 0px;
+}
+.company__r1{
+    margin: -5px 0px 0px 58%;
+}
+.company__block--block2{
+    width: 25%;
+    margin: 75px 0px 0px 9%;
+}
+.company__sprite--sprite2{
+    background-position: -1px 0px;
+}
+.company__r2{
+    margin: -5px 0px 0px 58.5%;
+}
+.slidersend{
+    width: 46%;
+}
+.slidersend__head{
+    margin: 102px 0px 0px 12.3%;
+    font-size: 24px;
+    padding: 26px 24px 37px 38px;
+}
+.slidersend__head:before{ 
+    display: none;
+}
+.slidersend__head:after{ 
+    display: none;
+}
+.slidersend__head1{
+    padding: 0px 0px 0px 0px;
+    margin: -3px 0px 0px 0px;
+    letter-spacing: 0.1px;
+    display: block;
+}
+.text--slidersend{
+    margin-top: 5px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    height: 148px;
+}
+.white_points{
+    margin: 24px 0px 0px 43%;
+}
+.recent__up{
+    margin: 0px 0px 0px 6px;
+}
+.images{
+    margin: 15px 0px 0px 8px;
+}
+.text--recentbold{
+    margin: 12px 0px 0px 20.3%;
+    letter-spacing: 0px;
+    height: 230px;
+}
+.text--recent{
+    margin: 0px 0px 21px 0px;
+    letter-spacing: 0px;
+    height: 20px;
+    width: 90%;
+    overflow: hidden;
+
+}
+.readblack{
+    margin: -1px 0px 0px 60%;
+}
+.read--black{
+    display: none;
+}
+.read--blog{
+    display: inline;
+    font-family: "League Gothic";
+    color: black;
+}
+.fotologo{
+    height: 65px;
+    width: 70px;
+    background-position: 0px 0px;
+    margin: 29px 0px 0px 3%;
+    float: left;
+}
+.fotologo1{
+    height: 65px;
+    width: 75px;
+    margin: 29px 0px 0px 6.6%;
+    float: left;
+    background: url(../img/logo.png) -132px 0  no-repeat;
+}
+.fotologo2{
+    height: 65px;
+    width: 70px;
+    margin: 29px 0px 0px 6.6%;
+    float: left;
+    background: url(../img/logo.png) -267px 0 no-repeat;
+}
+.fotologo3{
+    height: 65px;
+    width: 70px;
+    margin: 29px 0px 0px 6.8%;
+    float: left;
+    background: url(../img/logo.png) -400px 0 no-repeat;
+}
+.fotologo4{
+    height: 65px;
+    width: 110px;
+    margin: 29px 0px 0px 6%;
+    float: left;
+    background: url(../img/logo.png) -525px 0 no-repeat;
+}
+.fotologo5{
+    height: 65px;
+    width: 90px;
+    margin: 29px 0px 0px 6%;
+    float: left;
+    background: url(../img/logo.png) -693px 0 no-repeat;
+}
+.fon1{
+    clear: both;
+}
+.pig{
+    display: none;
+}
+.pig__comments{
+    display: none;
+}
+.pig__news{
+    font-size: 24px;
+    margin: 100px 0px 0px 2.5%;
+    width: 26%;
+}
+.text--news{
+    font-size: 16px;
+    margin: 7px 0px 0px 0px;
+    letter-spacing: 0px;
+    height: 170px;
+    overflow: hidden;
+    line-height: 24px;
+}
+.pig__news--1{
+    display: block;
+    margin: 100px 0px 0px 8.6%;
+}
+.pig__news--2{
+    display: block;
+    margin: 100px 0px 0px 8.4%;
+    width: 26%;
+}
+footer{
+    height: 200px;
+}
+.menu--footer{
+    padding: 45px 0px 0px 2.4%;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+.design{
+    padding: 101px 2.7% 0px 0px;
+}
+
+}
+
+@media (max-width: 480px){
+
+body{
+    position: relative;
+    background: url(../img/header_bc.png) center 0 no-repeat,
+                url(../img/footer768.png) center 2191px no-repeat;
+}
+.sliderfield{
+    width: 2400px;
+    height: 246px;
+    background-color: rgba(0,0,0,0.2);
+    margin: 0 auto;
+    margin-top: 203px;
+}
+.purplefield{
+    width: 2400px;
+    height: 598px;
+    margin: 0 auto;
+    background: linear-gradient(#322539, #745083);
+    box-shadow: 0px 2px 8px rgba(113,78,127,0.9);
+    border-top: 1px solid #000000;
+    margin-top: 99px;
+}
+.whitefield{
+    width: 2400px;
+    height: 786px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #D2D2D2;
+    margin: 0 auto;
+}
+.logofield{
+    width: 2400px;
+    height: 230px;
+    background-color: #f9f9f9;
+    margin: 1px auto;
+}
+.greyfield{
+    width: 2400px;
+    height: 668px;
+    background-color: #ececec;
+    box-shadow: 0px 5px 0px rgba(0,0,0,0.2);
+    margin: 0 auto;
+    border-top: 1px solid #D2D2D2;
+}
+.wrapper{
+    position: absolute;
+    left: 50%;
+    top: -203px;
+    margin-left: -240px;
+    max-width: 480px;
+    color: white;
+}
+header{
+    height: 487px;
+}
+.pin{
+    padding-left: 34%;
+    float: none;
+}
+.menu{
+    padding: 0px;
+    margin: 24px 0px 30px 46%;
+}
+.menu__item{
+    display: none;
+}
+.menu__item1{
+    position: relative;
+}
+.menu480{
+    display: none;
+    position: absolute;
+    width: 245px;
+    top: -12px;
+    left: -103px;
+    background-color: rgba(54,41,62,0.8);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 5px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.menu480__item{
+    display: block;
+    list-style: none;
+    box-shadow: 0px 0px 1px rgba(82,63,90,1);
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 5px;
+}
+.menu480__link{
+    display: block;
+    font-size: 24px;
+    font-family: "League Gothic";
+    color: #ffffff;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    letter-spacing: 0px;
+    text-decoration: none;
+    padding: 7px 0px 7px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.menu480__link:hover{
+    border-bottom: 2px solid #edbfff;
+    padding: 7px 0px 5px 0px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.menu__item1:hover > .menu480{
+    display: block;
+}
+.slider{
+    height: 246px;
+}
+.slider__head{
+    width: 43%;
+    font-size: 36px;
+    padding: 90px 0px 0px 39px;
+    float: left;
+    height: 60px;
+    overflow: hidden;
+}
+.slider--head1{
+    width: 100%;
+    height: 23px;
+    font-size: 18px;
+    padding: 0px;
+    letter-spacing: 0.1px;
+    margin-top: -4px;
+}
+.text{
+    display: none;
+}
+.iphone{
+    margin: -9px 0px 0px 2.2%;
+    height: 303px;
+    width: 40.5%;
+}
+.slider__point{
+    margin: 23px 0px 0px 41.3%;
+}
+.company{
+    height: 598px;
+}
+.company__block{
+    width: 97%;
+    margin: 75px 0px 0px -2%;
+}
+.company__sprite{
+    margin: 1px 0px 0px 41px;
+}
+.text--company{
+    display: block;
+    letter-spacing: 0px;
+    height: 86px;
+}
+.company__r{
+    margin: -5px 0px 0px 84.3%;
+}
+.company__block--block1{
+    margin: 19px 0px 0px -2%;
+}
+.company__r1{
+    margin: -5px 0px 0px 84.3%;
+}
+.company__block--block2{
+    width: 97%;
+    margin: 23px 0px 0px -2%;
+}
+.company__r2{
+    margin: -5px 0px 0px 84.3%;
+}
+.slidersend{
+    width: 96%;
+}
+.slidersend__head{
+    margin: 68px 0px 0px 9.5%;
+    font-size: 30px;
+    padding: 26px 24px 37px 38px;
+}
+.slidersend__head1{
+    padding: 0px 0px 0px 0px;
+    margin: -3px 0px 0px 5px;
+    letter-spacing: 0.4px;
+    display: inline;
+}
+.foto{
+    position: absolute;
+    top: 20px;
+    left: -24px;
+}
+.text--slidersend{
+    margin-top: 11px;
+    height: 170px;
+    display: block;
+}
+.white_points{
+    margin: 26px 0px 0px 43.3%;
+}
+.recent{
+    float: right;
+    margin: 46px 0px 85px 0px;
+    height: 273px;
+    width: 84%;
+    color: black;
+    font-size: 30px;
+    font-family: "League Gothic";
+    letter-spacing: 0px;
+}
+.images{
+    margin: 14px 0px 0px 8px;
+}
+.post, .post1, .post2{
+    display: block;
+    padding-bottom: 17px;
+}
+.text--recentbold{
+    margin: 11px 28px 0px 18%;
+    display: block;
+}
+.text--recent{
+    width: 85%;
+    display: block;
+}
+.logo{
+    height: 235px;
+    clear: both;
+}
+.fotologo{
+    margin: 39px 0px 0px 17%;
+}
+.fotologo1{
+    margin: 39px 0px 0px 11.1%;
+}
+.fotologo2{
+    margin: 39px 0px 0px 10.5%;
+}
+.fotologo3{
+    margin: 25px 0px 0px 12%;
+}
+.fotologo4{
+    margin: 25px 0px 0px 9.4%;
+}
+.fotologo5{
+    margin: 25px 0px 0px 10%;
+}
+.fon1{
+    height: 668px;
+}
+.pig__news{
+    margin: 77px 0px 0px 3.9%;
+    width: 92%;
+}
+.text--news{
+    height: 97px;
+    display: block;
+}
+.pig__news--1{
+    margin: 53px 0px 0px 3.9%;
+}
+.pig__news--2{
+    margin: 56px 0px 0px 3.9%;
+}
+.menu--footer{
+    padding: 44px 0px 0px 4.5%;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+.menu__item--footer{
+    margin: 0px 5.3% 0px 0px;
+    display: block !important;
+}
+.menu__link--footer{
+    font-size: 20px;
+}
+.menu__link--footer:hover{
+    border-bottom: none;
+}
+.design{
+    padding: 30px 35.4% 0px 0px;
+}
+
+}
+
+@media (max-width: 320px){
+
+body{
+    position: relative;
+    background: url(../img/header_bc.png) center 0 no-repeat,
+                url(../img/footer768.png) center 2324px no-repeat;
+}
+.sliderfield{
+    display: none;
+}
+.purplefield{
+    width: 2400px;
+    height: 598px;
+    margin: 0 auto;
+    background: linear-gradient(#322539, #745083);
+    box-shadow: 0px 2px 8px rgba(113,78,127,0.9);
+    border-top: 1px solid #000000;
+    margin-top: 516px;
+}
+.whitefield{
+    width: 2400px;
+    height: 786px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #D2D2D2;
+    margin: 0 auto;
+}
+.logofield{
+    width: 2400px;
+    height: 421px;
+    background-color: #f9f9f9;
+    margin: 1px auto;
+}
+.greyfield{
+    display: none;
+}
+.wrapper{
+    position: absolute;
+    left: 50%;
+    top: -516px;
+    margin-left: -160px;
+    max-width: 320px;
+    color: white;
+}
+header{
+    height: 455px;
+}
+.pin{
+    padding-left: 26%;
+}
+.menu{
+    margin: 24px 0px 30px 44%;
+}
+.menu__item1:hover > .menu480{
+    display: none;
+}
+.slider{
+    height: 205px;
+    background: none;
+}
+.slider__head{
+    width: 66%;
+    padding: 90px 0px 0px 63px;
+}
+.slider--head1{
+    width: 100%;
+    padding: 0px;
+    letter-spacing: 0px;
+}
+.iphone{
+    display: none;
+}
+.slider__point{
+    margin: 24px 0px 0px 37%;
+}
+.company{
+    height: 598px;
+}
+.company__block{
+    width: 83%;
+    margin: 68px 0px 0px 9.4%;
+}
+.company__sprite{
+    margin: 1px 0px 0px 0px;
+}
+.text--company{
+    height: 73px;
+    width: 93%;
+}
+.company__r{
+    margin: 8px 0px 0px 73.1%;
+}
+.company__block--block1{
+    margin: 19px 0px 0px 9.1%;
+}
+.company__r1{
+    margin: 8px 0px 0px 73.1%;
+}
+.company__block--block2{
+    width: 83%;
+    margin: 35px 0px 0px 9.4%;
+}
+.company__r2{
+    margin: 8px 0px 0px 72.8%;
+}
+.slidersend{
+    width: 94%;
+}
+.slidersend__head{
+    margin: 68px 0px 0px 14.5%;
+    font-size: 24px;
+    padding: 25px 46px 40px 35px;
+}
+.slidersend__head1{
+    margin: -4px 0px 0px 0px;
+    letter-spacing: 0px;
+    display: block;
+}
+.text--slidersend{
+    margin: 2px 0px 0px 3px;
+}
+.white_points{
+    margin: 24px 0px 0px 45.3%;
+}
+.recent{
+    height: 273px;
+    width: 96%;
+}
+.text--recentbold{
+    margin: 11px 24px 0px 23.8%;
+    display: block;
+}
+.b{
+    height: 26px;
+    overflow: hidden;
+    width: 75%;
+}
+.text--recent{
+    width: 105%;
+    display: block;
+
+}
+.readblack{
+    margin: -1px 0px 0px 57%;
+    font-size: 18px;
+}
+.logo{
+    border-bottom: none;
+    height: 422px;
+    clear: both;
+}
+.fotologo{
+    margin: 54px 0px 0px 19%;
+}
+.fotologo1{
+    margin: 54px 0px 0px 16.6%;
+}
+.fotologo2{
+    margin: 60px 0px 0px 21%;
+}
+.fotologo3{
+    margin: 60px 0px 0px 16.5%;
+}
+.fotologo4{
+    margin: 41px 0px 0px 12.3%;
+}
+.fotologo5{
+    margin: 41px 0px 0px 15%;
+}
+.fon1{
+    display: none;
+}
+.menu--footer{
+    display: none;
+}
+.design{
+    padding: 41px 28% 0px 0px;
+}
+
+}
