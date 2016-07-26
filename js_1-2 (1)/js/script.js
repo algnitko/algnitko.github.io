@@ -20,17 +20,37 @@ function pow(x, n) {
   
 }
 
-var x = prompt("x?", '');
 
-if ( x-Math.floor(x)==0 ) {
-var n = prompt("n?", ''); 
-} else {
+while (x-Math.floor(x)!==0 ) {
+  var x = prompt("x?", '');
+
+  if ( x == '') {
+    while (x == '') {
+    alert('Пустая строка. Введите число');
+    x = prompt("x?", '');
+    }
+  }
+
+  if ( x-Math.floor(x)==0 ) {
+    continue;
+  } else {
   alert('Введите целое число');
-} 
+  } 
+}
 
+while (n-Math.floor(n)!==0 ) {
+  var n = prompt("n?", '');
 
-if ( n-Math.floor(n)==0 ) { 
-   console.log(pow(x, n)); 
-} else {
+  if (n == '') {
+    while (n == '') {
+    alert('Пустая строка. Введите число');
+    n = prompt("n?", '');
+    }
+  }
+
+  if ( n-Math.floor(n)==0 ) { 
+    console.log(pow(x, n)); 
+  } else {
   alert('Введите целое число');
-} 
+  }
+}
