@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 800px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: gray;
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 150px;
+    font-weight: bold;
+    border: 14px solid black;
+    border-radius: 40px;
+}
+.msek{
+    margin: -10px 100px 0px 0px;
+}
+#for_msek{
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+#start{
+    width: 300px;
+    background-color: green;
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 80px;
+    font-weight: bold;
+    border: 14px solid black;
+    border-radius: 40px;
+    margin-top: -70px;
+}
+.start{
+    margin: 0px 225px 0px 225px;
+}
+#clear{
+    width: 300px;
+    background-color: red;
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 80px;
+    font-weight: bold;
+    border: 14px solid black;
+    border-radius: 40px;
+}
