@@ -21,13 +21,13 @@ $(function() {
     color: '#111'
   });
 
-    $('.help1, .help2, .help3').css({
-      display: 'none',
-      width: '200px',
-      boxShadow: '0 0 4px 1px rgba(0, 0, 0, 0.5)',      
-      padding: '5px',
-      borderRadius: '5px'
-    });
+  $('.help1, .help2, .help3').css({
+    display: 'none',
+    width: '200px',
+    boxShadow: '0 0 4px 1px rgba(0, 0, 0, 0.5)',      
+    padding: '5px',
+    borderRadius: '5px'
+  });
 
   $('.Firstname, .Lastname, .Address').css('margin', '2px 5px 30px 10px');
 

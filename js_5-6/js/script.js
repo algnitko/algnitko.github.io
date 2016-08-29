@@ -26,7 +26,7 @@ function start_click(){
 
         for_count.innerHTML=str;
         for_msek.innerHTML=msek;
-        }, 1);
+        }, 8);
         go=1;
     }else{
         start.innerHTML = 'Cont..';

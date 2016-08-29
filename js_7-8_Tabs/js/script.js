@@ -136,24 +136,3 @@ $(function() {
 
 
 });
-
-// .{
-//     float: left;
-//     width: 300px;
-//     height: 1000px;
-//     margin: 10px 0px 0px 0px;
-//     padding: 10px 0px 0px 0px;
-//     text-align: left;
-//     vertical-align: middle;
-//     line-height: 10px;
-//     line-height: 1;
-//     letter-spacing: 0.6px;
-//     font-size: 8px;
-//     font-family: "Lucida Sans Unicode";
-//     color: #77858b;
-//     font-style: italic;
-//     font-weight: bold;
-//     border: 1px solid grey;
-//     border-radius: 12px;
-//     background: linear-gradient(to top, #206988, #0c3256);
-//     box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
