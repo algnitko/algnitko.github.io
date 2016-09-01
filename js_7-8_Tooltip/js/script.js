@@ -21,7 +21,16 @@ $(function() {
     color: '#111'
   });
 
-  $('.help1, .help2, .help3').css({
+  var title = $("input.Firstname").attr("title");
+  var title1 = $("input.Lastname").attr("title");
+  var title2 = $("input.Address").attr("title");
+  $("#first").append("<span class='f'></span>");
+  $("#second").append("<span class='s'></span>").css('display', 'block');
+  $("#address").append("<span class='a'></span>");
+  $('.f').text(title);
+  $('.s').text(title1);
+  $('.a').text(title2);
+  $('.f, .s, .a').css({
     display: 'none',
     width: '200px',
     boxShadow: '0 0 4px 1px rgba(0, 0, 0, 0.5)',      
@@ -29,32 +38,34 @@ $(function() {
     borderRadius: '5px'
   });
 
+  $('.Firstname, .Lastname, .Address').removeAttr('title');
+
   $('.Firstname, .Lastname, .Address').css('margin', '2px 5px 30px 10px');
 
   $('.Firstname').hover(
          function () {
-           $('.help1').show()
+           $('.f').show()
          }, 
          function () {
-           $('.help1').hide()
+           $('.f').hide()
          }  
       );
 
   $('.Lastname').hover(
          function () {
-           $('.help2').show()
+           $('.s').show()
          }, 
          function () {
-           $('.help2').hide()
+           $('.s').hide()
          }  
       );
 
   $('.Address').hover(
          function () {
-           $('.help3').show()
+           $('.a').show()
          }, 
          function () {
-           $('.help3').hide()
+           $('.a').hide()
          }  
       );
 
@@ -75,7 +86,7 @@ $(function() {
       textDecoration: 'none'
     })
     .on('click', function (e) {
-        $('.help1, .help2, .help3').show();
+        $('.f, .s, .a').show();
         e.preventDefault();
         });;
 })
